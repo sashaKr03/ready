@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ready/static/css/main.ab0dff8c.css",
+    "main.js": "/ready/static/js/main.da99ac1d.js",
+    "static/media/mrec.jpg": "/ready/static/media/mrec.0df353341ffd34e52bdb.jpg",
+    "static/media/tor4.jpg": "/ready/static/media/tor4.19480b3f04d27937de5b.jpg",
+    "static/media/shark.jpg": "/ready/static/media/shark.280bf7c63eb3a42d3dc3.jpg",
+    "static/media/allAndAlways.jpg": "/ready/static/media/allAndAlways.3c838a372bba7fe00366.jpg",
+    "static/media/duna.jpg": "/ready/static/media/duna.122d2de7094deb532a68.jpg",
+    "static/media/fastTrain.jpg": "/ready/static/media/fastTrain.bc2ad6f6e6ddc488d682.jpg",
+    "static/media/inter.jpg": "/ready/static/media/inter.1312d2e838f062e4b82c.jpg",
+    "static/media/3Meters1.jpg": "/ready/static/media/3Meters1.240a67beba63a9c1c661.jpg",
+    "static/media/ghostCristmas.jpg": "/ready/static/media/ghostCristmas.d113d83ed290bd4b4438.jpg",
+    "static/media/matrix4.jpg": "/ready/static/media/matrix4.fe3dc105c046c6199ef0.jpg",
+    "static/media/zdobich.jpg": "/ready/static/media/zdobich.dd37859ec8aba084a9f2.jpg",
+    "static/media/50331859-2357765.jpeg": "/ready/static/media/50331859-2357765.15df5eefc12c6f9cd88f.jpeg",
+    "static/media/star.png": "/ready/static/media/star.618d11e122cbca3f8e9e.png",
+    "index.html": "/ready/index.html",
+    "main.ab0dff8c.css.map": "/ready/static/css/main.ab0dff8c.css.map",
+    "main.da99ac1d.js.map": "/ready/static/js/main.da99ac1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab0dff8c.css",
+    "static/js/main.da99ac1d.js"
+  ]
+}

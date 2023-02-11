@@ -72,17 +72,17 @@ const LoginPage = () => {
       }else{alert('Користувач з таким логіном вже існує')}
     }
   
-    function keyDown (e:KeyboardEvent<HTMLInputElement>){
-      if (location.pathname==='/reg'){
-        if(e.key='Enter'){
-          newUser()
-        }
-      }else{
-        if(e.key='Enter'){
-          setLogin()
-        }
-      }
-    }
+//     function keyDown (e:KeyboardEvent<HTMLInputElement>){
+//       if (location.pathname==='/reg'){
+//         if(e.key='Enter'){
+//           newUser()
+//         }
+//       }else{
+//         if(e.key='Enter'){
+//           setLogin()
+//         }
+//       }
+//     }
 
   return (
     <div className='auth'>
@@ -93,7 +93,6 @@ const LoginPage = () => {
             <label htmlFor='login'>Логін:</label>
             <input
             value={loginValue}
-            onKeyDown={keyDown}
             onChange={e=>setLoginValue(e.target.value)}
              name='login'
              type='text'
@@ -104,7 +103,6 @@ const LoginPage = () => {
           <label htmlFor='email'>Пошта:</label>
           <input 
           value={emailValue}
-          onKeyDown={keyDown}
           onChange={e=>setEmailValue(e.target.value)}
           name='email' 
           type='email'
@@ -114,7 +112,6 @@ const LoginPage = () => {
           <label htmlFor='password'>Пароль:</label>
           <input 
           value={passwordValue}
-          onKeyDown={keyDown}
           onChange={e=>setPasswordValue(e.target.value)}
           name='password' 
           type='password'

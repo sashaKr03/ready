@@ -1,0 +1,7 @@
+.genreLink{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    border-bottom:1px black solid;
+    border-radius: 2px;
+}

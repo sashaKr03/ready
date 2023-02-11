@@ -1,0 +1,39 @@
+.commentCard {
+    padding: 10px;
+    border-bottom:1px solid silver;
+    border-radius: 5px;
+}
+
+.userData{
+    padding-bottom: 10px;
+    display: flex;        
+    gap: 10px;
+    font-size: 18px;
+}
+
+.nameEmailComm {
+    display: flex;
+    align-content: center;
+    gap: 10px;
+}
+.nameEmailComm label{
+    margin-right: 5px;
+}
+
+.commentInp{
+    display: flex;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.commentInp label {
+    margin-right: 5px;
+}
+
+.commButt{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: gray;
+    color: aliceblue;
+    margin-left: 90px;
+}

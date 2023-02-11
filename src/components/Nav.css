@@ -1,0 +1,31 @@
+.nav {
+    height: 20px;
+    background-color: rgb(73, 72, 72);
+    padding-top: 5px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: black 0px 0px 10px 5px;
+    margin-bottom: 2%;
+}
+.page{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 7px;
+    border-left: 1px white solid;
+    border-right: 1px white solid;
+    border-bottom: 1px white solid;
+    border-radius: 5px;
+    height: 20px;
+    transition: 1s;
+}
+.active{
+    background-color: white;
+    color: rgb(44, 43, 43);;
+}
+
+.page:hover{
+    border: none;
+    border-bottom: 1px white solid;
+  }

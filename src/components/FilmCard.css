@@ -1,0 +1,61 @@
+.filmCardPage{
+    margin-left: -4%;
+    margin-right: -4%;
+    width: 100%;
+    margin-left: 0;
+}
+
+.filmLink {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(194, 194, 194);
+}
+
+.back {
+    background-color: rgb(31, 31, 31);
+    color: rgb(194, 194, 194);
+    padding: 20px;
+    padding-top: 0;
+    border-radius: 0px 5px 0px 0px;
+    border-bottom: 1px solid grey;
+}
+
+.h {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 10px;
+    gap: 1%;
+}
+
+.h img{
+    margin-bottom: 5%;
+}
+
+.filmContent {
+    display: flex;
+    justify-content: space-around;
+    gap: 2%;
+}
+
+
+.filmContent p {
+    margin-top: 10px;
+}
+
+.cardRating{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.filmCardGenre{
+    color: aliceblue;
+}
+
+@media (max-width:714px){
+    .back{
+        border-radius: 5px 5px 0px 0px;
+    }
+}

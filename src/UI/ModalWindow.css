@@ -1,0 +1,32 @@
+.moduleWindow{
+    width: 400px;
+    background-color: aliceblue;
+    position: fixed;
+    padding: 20px;
+    z-index: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-30%);
+    top: 35%;
+    border-radius: 5px;
+}
+
+.backModule {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.475);
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.closeModule{
+    display: flex;
+    justify-content: right;
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+.closeModule div {
+    cursor: pointer;
+}

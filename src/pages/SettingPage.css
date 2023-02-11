@@ -1,0 +1,32 @@
+.settingPage {
+    height: 100%;
+    width: 70%;
+}
+
+.settingContent{
+    background-color: rgb(63, 63, 63);
+    border-radius: 0px 5px 5px 0px;
+    padding: 20px;
+}
+
+.settingButtoms {
+    display: grid;
+    gap: 20px;
+}
+.settingButtoms button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(163, 160, 160);
+    font-size: 20px;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+}
+
+.changeLogin label{
+    margin-right: 10px;
+}
+
+.ButtomCenter{
+    display: flex;
+    justify-content: center;
+}

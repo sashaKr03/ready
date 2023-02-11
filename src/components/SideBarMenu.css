@@ -1,0 +1,49 @@
+.sideBarMenu {
+    position: fixed;
+    top: -3px;
+    left: -350px;
+    height: 102%;
+    width: 320px;
+    word-wrap: break-word;
+    overflow-y: scroll;
+    padding-right: 0px;
+    transition: 1s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.sideBarMenuActive{
+    visibility: visible;
+    opacity: 1;
+    left: -3px;
+}
+
+.sibeBarMenuClose{
+    float: left;
+    margin-left: 66%;
+    margin-top: 8%;
+    margin-bottom: -10%;
+    color: aliceblue;
+}
+
+.sideBarMenuButton{
+    background-color: rgb(73, 72, 72);
+    border: 3px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 30px;
+    color: rgb(219, 219, 219);
+    text-shadow: 
+    1px 1px 1px black, 
+    0 1px 1px black, 
+    -1px 0 1px black, 
+    0 -1px 1px black;
+    font-size: 120%;
+    width: auto;
+}
+
+@media (min-width:714px){
+    .sideBarMenuCover{
+        display: none;
+    }
+}

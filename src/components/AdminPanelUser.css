@@ -1,0 +1,68 @@
+.adminPanelUser{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 520px;
+    height: 45px;
+    gap: 1%;
+    font-size: 19px;
+    border: 1px solid peru;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    border-bottom:none ;
+    background-color: aliceblue;
+}
+
+.adminPanelUser img {
+    width: 40px;
+}
+
+
+.adminUsersGreen{
+    background-color: greenyellow;
+    width: 20px;
+    height: 20px;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.adminUsersRed{
+    background-color: lightcoral;
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.adminPageStatus{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.adminSaveUserButt{
+    border: 1px black solid;
+    display: block;
+    background-color: rgba(240, 248, 255, 0);
+    padding: 5px;
+    border-radius: 0px 7px 0px 7px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.editUserButt {
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.userDelButton{
+    color: red;
+    font-size: 15px;
+    border: 1px red solid;
+}
+
+.delUserYes{
+    display: flex;
+    justify-content: space-around;
+}

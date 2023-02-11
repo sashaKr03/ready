@@ -1,0 +1,25 @@
+.newFilmsGenres{
+    display: flex;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: gray;
+    color: aliceblue;
+    width: max-content;
+    max-height: 30px;
+    align-items: center;
+    gap: 3px;
+    font-size: 20px;
+    margin-right: 1%;
+}
+
+.newFilmsGenres div{
+    color: rgb(196, 1, 1);
+}
+
+.newFilmsGenresCover{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    margin-bottom: 3%;
+    padding: 3px;
+}

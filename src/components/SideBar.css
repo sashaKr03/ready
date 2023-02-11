@@ -1,0 +1,63 @@
+.navigate {
+    background-color: rgb(73, 72, 72);
+    border: 3px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(219, 219, 219);
+    text-shadow: 
+    1px 1px 1px black, 
+    0 1px 1px black, 
+    -1px 0 1px black, 
+    0 -1px 1px black;
+    border-radius: 5px 0px 0px 5px;
+    height: 100%;
+    padding-right: 18px;
+}
+
+.navigate a{
+    color: rgb(219, 219, 219);
+}
+
+.main-side {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    font-size: 35px;
+}
+
+.title2{
+    font-size: 30px;
+}
+
+.allCat{
+    margin-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    width: auto;
+    word-wrap: break-word;
+}
+
+.allGenres{
+    margin-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+.allGenres * {
+    margin-bottom: 5px;
+}
+
+.allCat * {
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+
+.pos {
+    display: flex;
+    gap: 20px
+}
+

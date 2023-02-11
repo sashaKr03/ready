@@ -1,0 +1,90 @@
+.userPageImg {
+    min-width: 30%;
+    height: 200%;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 20%;
+}
+.userPage {
+    background-color: rgb(63, 63, 63);
+    padding: 30px;
+    color: aliceblue;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.userPageButt{
+    padding: 5px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(63, 63, 63);
+    font-size: 20px;
+    border: 1px solid aliceblue;
+}
+
+.bottomOfUser {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    align-items: center;
+}
+
+.userPageButt1{
+    padding: 5px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(63, 63, 63);
+    font-size: 20px;
+    border: 1px solid aliceblue;
+    height: 40px;
+    width: 100%;
+}
+
+.userFavCover{
+    width: 203px;
+    margin-top: 10%;
+}
+
+
+@media (max-width:900px){
+    .userPageHeader{
+        display: grid;
+        grid-template-columns: 100fr;
+        grid-template-rows: 100px;
+        margin-bottom: 10%;
+    }
+    .userFavCover{
+        margin-top: 30%;
+        margin-bottom: 2%;
+    }
+}
+
+@media (min-width:901px){
+    .userPageHeader {
+        display: flex;
+        width: 98%;
+        justify-content: space-between;
+        margin-right: 2%;
+        gap: 20px;
+    }
+}
+
+
+@media (max-width:500px){
+    .userFavCover{
+        margin-top: 40%;
+        margin-bottom: 2%;
+    }
+}
+
+@media(max-width:500px){
+    .userPage{
+    width: 100%;
+    }
+}
+
+@media(min-width:500px){
+    .userPage{
+    width: 80%;
+    }
+}

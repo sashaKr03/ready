@@ -1,0 +1,28 @@
+.userFilmInf {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.ratt{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 3px;
+}
+
+img {
+    width: 190px;
+}
+
+.userFavMain{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    background-color: rgb(30, 30, 30);
+    padding: 7px;
+    border-radius: 5px;
+    overflow-x: scroll;
+
+}
+

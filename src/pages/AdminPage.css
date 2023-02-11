@@ -1,0 +1,18 @@
+.adminPage{
+    padding: 20px;
+    width: 80%;
+    background-color: rgb(59, 59, 59);
+    border-radius: 0px 5px 5px 0px;
+}
+
+.adminPageButtons button{
+    width: 92%;
+    margin-left: 4%;
+    background-color: rgb(40, 40, 40);
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 4%;
+}

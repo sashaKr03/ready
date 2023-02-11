@@ -1,0 +1,79 @@
+.sideMenu{
+    height: 100%;
+    position: fixed;
+    right: -340px;
+    background: rgba(209, 216, 223, 0.751);
+    top: 0;
+    z-index: 1;
+    padding-left  : 20px;
+    border: 1px solid rgb(211, 217, 223);
+    border-radius: 5px 0px 5px 0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s ease-in-out;
+  }
+
+  .sideMenuActive {
+    visibility: visible;
+    opacity: 1;
+    transition: all, 2s;
+    right: 0px;
+    transition: 1s;
+  }
+  
+  .sideMenu *{
+    color: black;
+  }
+  
+  .searchButtonSide{
+    border: black;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 6px;
+  }
+  
+  .usSide{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  
+  .userImgSide{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .adminPanelSide{
+    margin-top: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    text-decoration: none;
+    width: 53%;
+  }
+  
+  .adminPanelSide a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .topSide{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    gap: 20%;
+  }
+
+  .logButtsSide{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px; 
+    margin-top: 4px;
+  }

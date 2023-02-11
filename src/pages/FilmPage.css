@@ -1,0 +1,67 @@
+
+.descPage{
+    background-color: rgb(25, 25, 25);
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(189, 186, 186);
+    font-size: 18px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.center{
+    text-align: center;
+    align-content: center;
+}
+
+.removeFromFav{
+    margin-top: 8%;
+    margin-left: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgba(255, 0, 0, 0.868);
+    background-color: rgb(39, 39, 39);
+    border: rgba(255, 0, 0, 0.868) 2px solid;
+}
+
+.addToFav{
+    margin-top: 8%;
+    margin-left: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(1, 152, 1);
+    background-color: rgb(39, 39, 39);
+    border: rgb(1, 152, 1) 2px solid;
+}
+
+@media (max-width:1000px){
+    .filmPageImg{
+        height: 60%;
+        width: 50%;
+    }
+}
+
+@media (min-width:1000px){
+    .filmPageImg{
+        height: 45%;
+        width: 35%;
+    }
+
+}
+
+@media (min-width:1200px){
+    .filmPageImg{
+        height: 35%;
+        width: 25%;
+    }
+}
+
+@media (min-width:480px){
+    .contentPage {
+        display: flex;
+        gap: 2%;
+    }
+}
+
